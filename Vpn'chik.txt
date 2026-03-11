@@ -1,1 +1,29 @@
-json://throne#eyJwYWNrZXRfZW5jb2RpbmciOiJ4dWRwIiwic2VydmVyIjoiNzcuMjM4LjIzNS4xNTQiLCJzZXJ2ZXJfcG9ydCI6ODQ0MywidGFnIjoiW09wZW5SYXldIPCfh7Pwn4exIE5MLTI3MDEiLCJ0bHMiOnsiZW5hYmxlZCI6dHJ1ZSwic2VydmVyX25hbWUiOiJzbmlwcGV0LmZnZncueWUuZ3MiLCJ1dGxzIjp7ImVuYWJsZWQiOnRydWUsImZpbmdlcnByaW50IjoicmFuZG9tIn19LCJ0cmFuc3BvcnQiOnsiaGVhZGVycyI6eyJIb3N0Ijoic25pcHBldC5mZ2Z3LnllLmdzIn0sInBhdGgiOiIvZGFuZmVuZyIsInR5cGUiOiJ3cyJ9LCJ0eXBlIjoidmxlc3MiLCJ1dWlkIjoiOTQ4ZmFjM2MtNDJiZi00MWE2LWE1ZjktNzA0ZDM2ZmYwZDhkIn0=
+{
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇸🇬 NL-2701 § 0",
+      "server": "77.238.235.154",
+      "server_port": 8443,
+      "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
+      "tls": {
+        "enabled": true,
+        "server_name": "snippet.fgfw.ye.gs",
+        "alpn": "http/1.1",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/danfeng",
+        "headers": {
+          "Host": "snippet.fgfw.ye.gs"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    }
+  ]
+}
