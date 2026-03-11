@@ -27,3 +27,93 @@
     }
   ]
 }
+
+{
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇳🇱 NL-2534 § 0",
+      "server": "62.133.61.100",
+      "server_port": 8443,
+      "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
+      "tls": {
+        "enabled": true,
+        "server_name": "snippet.sh21.eu.org",
+        "alpn": "http/1.1",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/danfeng",
+        "headers": {
+          "Host": "snippet.sh21.eu.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    }
+  ]
+}
+
+{
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇳🇱 NL-2542 § 0",
+      "server": "45.87.154.147",
+      "server_port": 2053,
+      "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
+      "tls": {
+        "enabled": true,
+        "server_name": "snippet.sh21.eu.org",
+        "alpn": "http/1.1",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/danfeng",
+        "headers": {
+          "Host": "snippet.sh21.eu.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    }
+  ]
+}
+
+{
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "[OpenRay] 🇳🇱 NL-2701 § 0",
+      "server": "77.238.235.154",
+      "server_port": 8443,
+      "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
+      "tls": {
+        "enabled": true,
+        "server_name": "snippet.fgfw.ye.gs",
+        "alpn": "http/1.1",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/danfeng",
+        "headers": {
+          "Host": "snippet.fgfw.ye.gs"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    }
+  ]
+}
